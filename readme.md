@@ -1,7 +1,7 @@
 # inj-ts-sdk
 
 Injective TypeScript SDK working with @cosmjs/stargate.
-There are many errors when using the native library of @injectivelabs/sdk-ts together with @cosmjs/stargate, so I will separate the sdk-ts part and make some adjustments to make it compatible and consistent with @cosmjs/stargate.
+There are some bugss when using the native library of @injectivelabs/sdk-ts together with @cosmjs/stargate, so I will separate the sdk-ts part and make some adjustments to make it compatible and consistent with @cosmjs/stargate.
 
 # Contributions and Bug Fixes:
 
@@ -17,7 +17,7 @@ Explore the SDK’s modules and start experimenting with blockchain features in 
 
 # Example send inj transaction:
 
-```
+```javascript
 //1.Import
 import {
   EthermintStargateClient,
