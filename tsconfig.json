@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "lib/esm",
+    "baseUrl": ".",
+    "moduleResolution": "node"
+  },
+  //"include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "demo"],
+  "ts-node": {
+    "transpileOnly": true,
+    "esm": true,
+    "compilerOptions": {
+      "resolveJsonModule": true,
+      "moduleResolution": "node"
+    },
+    
+  },
+  
+}
