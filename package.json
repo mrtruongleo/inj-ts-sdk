@@ -1,6 +1,6 @@
 {
   "name": "@mrtruongleo/inj-ts-sdk",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Injective typescript SDK Cosmjs",
   "contributors": [
     "mrtruongleo"

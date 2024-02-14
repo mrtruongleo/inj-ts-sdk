@@ -1,23 +1,3 @@
-# inj-ts-sdk
-
-Injective TypeScript SDK working with @cosmjs/stargate.
-There are many errors when using the native library of @injectivelabs/sdk-ts together with @cosmjs/stargate, so I will separate the sdk-ts part and make some adjustments to make it compatible and consistent with @cosmjs/stargate.
-
-# Contributions and Bug Fixes:
-
-This SDK is a work in progress, and as such, there may be bugs or areas for improvement. Hobbyists are encouraged to contribute to the project by identifying bugs, suggesting enhancements, or submitting fixes. Together, we can improve the SDK and create a more robust and enjoyable development experience for all hobbyists.
-
-# Getting Started:
-
-Begin your hobby project by installing the SDK via npm:
-
-`npm install @mrtruongleo/inj-ts-sdk`
-
-Explore the SDK’s modules and start experimenting with blockchain features in your projects.
-
-# Example send inj transaction:
-
-```
 //1.Import
 import {
   EthermintStargateClient,
@@ -62,7 +42,6 @@ import { StdFee, calculateFee, GasPrice } from "@cosmjs/stargate";
     );
 
   //All the rest of the code is the same when working with @cosmjs/stargate
-  //You just need define other type of Msg to execute different type of transaction like deleage, claim...
   const sendMsg = {
     typeUrl: "/cosmos.bank.v1beta1.MsgSend",
     value: {
@@ -101,5 +80,3 @@ import { StdFee, calculateFee, GasPrice } from "@cosmjs/stargate";
     });
   }
 })();
-
-```
