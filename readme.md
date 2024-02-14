@@ -46,7 +46,7 @@ import { StdFee, calculateFee, GasPrice } from "@cosmjs/stargate";
   const realAmount = 0.001; //inj in real amount
   const amount = {
     denom: "inj",
-    amount: new BigNumberInBase(realAmount).toWei().toFixed(), //you can just use amount string like: "1000000000000"
+    amount: new BigNumberInBase(realAmount).toWei().toFixed(), //you can just use amount string like: "1000000000000000"
   };
   const memo = "test inj transaction";
 
